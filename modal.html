@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Modal</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col">
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mi-modal-1">Abrir Modal 1</button>
+                <div class="modal fade" id="mi-modal-1" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-1">
+                    <!-- Caja de dialogo -->
+                    <div class="modal-dialog">
+                        <!-- Contenido de la caja -->
+                        <div class="modal-content">
+                            <!-- Encabezado de la caja-->
+                            <div class="modal-header">
+                                <h5>Titulo del Modal 1</h5>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="cerrar"></button>
+                            </div>
+
+                            <!-- Cuerpo de la caja -->
+                            <div class="modal-body">
+                                <h1>Hola Mundo Modal 1</h1>
+                            </div>                            
+
+                            <!-- Pie de la pagina de la caja -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-primary">Aceptar</button>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mi-modal-2">Abrir Modal 2</button>
+                <div class="modal fade" id="mi-modal-2" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-2" data-bs-backdrop="static">
+                    <!-- Caja de dialogo -->
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <!-- Contenido de la caja -->
+                        <div class="modal-content">
+                            <!-- Encabezado de la caja-->
+                            <div class="modal-header">
+                                <h5>Titulo del Modal 2</h5>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="cerrar"></button>
+                            </div>
+
+                            <!-- Cuerpo de la caja -->
+                            <div class="modal-body">
+                                <div style="height: 1000px;">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, perspiciatis natus dolorem esse quidem quibusdam obcaecati ea fugiat quos officia, laborum dolor eaque deleniti officiis unde veniam omnis molestiae suscipit, ad incidunt iste blanditiis enim necessitatibus aspernatur. Laboriosam, nostrum, excepturi assumenda eligendi animi, ad reiciendis nesciunt sunt tenetur perspiciatis doloribus autem. Sint id et dolorum sapiente, exercitationem culpa error fugit cum voluptas? Corrupti amet placeat nemo suscipit est modi nihil veritatis, ea quia temporibus atque harum exercitationem dolores. Quidem dolores possimus soluta fugiat nobis labore a molestias eveniet exercitationem, totam ab rerum voluptates distinctio atque eaque repellendus accusamus ipsum laboriosam.</p>
+                                </div>                                                            
+                            </div>                            
+
+                            <!-- Pie de la pagina de la caja -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-primary">Aceptar</button>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
